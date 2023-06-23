@@ -38,14 +38,14 @@ Repository for a simple Todo List Application (With bugs and tasks to be complet
 -   Clone repository to your workspace folder
     > **IMPORTANT!** For Windows OS, clone the repository in your WSL environment folder, not in Windows environment folder.
 -   Open terminal (or WSL terminal in Windows OS), navigate to application directory.
--   Install the application's dependencies by executing the following command.
+-   Install the application's dependencies by executing the following command (Just ignore if there are errors about redis in the end - it will be resolved once we run the actual container).
 
 ```
 docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v $(pwd):/opt \
     -w /opt \
-    laravelsail/php81-composer:latest \
+    laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
 
