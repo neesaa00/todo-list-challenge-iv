@@ -1,3 +1,6 @@
+# purpose  
+this repo aim to solve challenge for iv
+
 # Todo List Application
 
 Repository for a simple Todo List Application (With bugs and tasks to be completed!!)
